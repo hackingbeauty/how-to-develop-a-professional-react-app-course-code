@@ -1,0 +1,15 @@
+:local(.styles) {
+  .main-navigation {
+    background: $purple;
+
+    button {
+      color: $white;
+    }
+  }
+
+  @media (min-width: 1100px) {
+    .main-navigation {
+      margin-top: -63px;
+    }
+  }
+}

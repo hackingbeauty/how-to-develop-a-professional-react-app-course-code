@@ -1,0 +1,43 @@
+:local(.styles) {
+  position: relative;
+
+  .microphone-btn,
+  .delete-btn,
+  .save-btn {
+    position: absolute;
+    bottom: 30%;
+  }
+
+  .microphone-btn {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .delete-btn {
+    left: 70px;
+  }
+
+  .save-btn {
+    right: 70px;
+  }
+
+  @media (min-width: 500px) {
+    .delete-btn, {
+      left: 30%;
+    }
+
+    .save-btn {
+      right: 30%;
+    }
+  }
+
+  @media (min-width: 900px) {
+   .microphone-btn,
+    .delete-btn,
+    .save-btn {
+      bottom: -20px;
+    }
+  }
+
+}

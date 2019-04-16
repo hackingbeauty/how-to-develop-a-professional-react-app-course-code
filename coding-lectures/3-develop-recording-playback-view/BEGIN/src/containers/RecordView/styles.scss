@@ -1,0 +1,66 @@
+:local(.modalStyles) {
+  height: 100%;
+  background: $darkGrey35;
+  box-shadow: none;
+  position: relative;
+  overflow: hidden;
+
+  .bottom-navigation {
+    position: absolute;
+  }
+
+  .record-view-container {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  .arrow-icon {
+    margin-left: -10px;
+  }
+
+  .bottom-section {
+    position: relative;
+    top: 50px;
+  }
+
+  .date {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .message {
+    font-size: 16px;
+
+    em {
+      animation: blinker 5s linear infinite;
+      font-weight: bold;
+    }
+  }
+
+  @media (min-width: 900px) {
+    width: 600px;
+    height: 475px;
+
+    .record-view-container {
+      top: 45.5%;
+    }
+
+    .bottom-section {
+      top: 90px;
+    }
+
+    .microphone-icon {
+      top: 20px;
+      right: 25px;
+    }
+
+    .message {
+      font-size: 21px;
+    }
+
+  }
+}

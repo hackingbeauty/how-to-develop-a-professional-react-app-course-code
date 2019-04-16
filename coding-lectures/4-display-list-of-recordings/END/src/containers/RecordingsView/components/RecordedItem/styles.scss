@@ -1,0 +1,55 @@
+:local(.styles) {
+  font-size: 10px;
+  border-bottom: 1px solid $lighterGrey;
+
+  .item {
+    position: relative;
+    padding: 20px;
+    display: block;
+  }
+
+  .title {
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 5px;
+    max-width: 280px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 5px;
+
+    h2 {
+      font-size: 18px;
+      color: $lightBlue;
+    }
+
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+
+  .length,
+  .created-at,
+  .size {
+    font-size: 15px;
+    color: $white35;
+  }
+
+  .length {
+    position: absolute;
+    top: 24px;
+    right: 20px;
+  }
+
+  .size {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  @media (min-width: 750px) {
+    .title {
+      max-width: 600px;
+    }
+  }
+
+}

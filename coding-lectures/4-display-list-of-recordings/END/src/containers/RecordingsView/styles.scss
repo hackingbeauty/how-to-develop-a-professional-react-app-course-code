@@ -1,0 +1,9 @@
+:local(.styles) {
+  ul.item-list {
+    padding-bottom: 50px;
+
+    li:last-child {
+      border-bottom: none;
+    }
+  }
+}

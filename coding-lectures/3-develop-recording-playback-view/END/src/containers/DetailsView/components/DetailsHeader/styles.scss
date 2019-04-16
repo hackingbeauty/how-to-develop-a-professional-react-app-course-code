@@ -1,0 +1,13 @@
+:local(.styles) {
+  position: relative;
+
+  .app-bar {
+    background: $black65;
+    z-index: 1;
+  }
+
+  .close-icon {
+    position: relative;
+    left: -20px;
+  }
+}

@@ -1,0 +1,19 @@
+:local(.styles) {
+  .timer {
+    font-size: 480%;
+    color: $white;
+    width: 169px;
+    margin: 0px auto;
+    font-family: 'DJB-Digital', sans-serif;
+    text-align: center;
+
+    z-index: 1
+  }
+
+  @media (min-width: 900px) {
+    .timer {
+      font-size: 400%;
+    }
+
+  }
+}
